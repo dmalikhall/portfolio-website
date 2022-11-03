@@ -3,7 +3,7 @@ import logo from '../my-image.jpg';
 
 const Aboutme = () => {
   return (
-    <main className='about-content'>
+    <main className='about-content' id='about'>
         <section className='about-info'>
             <h1>About Me</h1>
             <p>Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. </p>

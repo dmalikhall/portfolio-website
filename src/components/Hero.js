@@ -1,14 +1,8 @@
 import React from 'react';
 
-
-
-
-
-
-
 const Hero = () => {
     return (
-        <main className='hero-container' >
+        <main className='hero-container' id='hero'>
             <section className='my-info'>
                 <h2>Hello I'm Derrion Hall</h2>
                 <p>Front-End Developer.
