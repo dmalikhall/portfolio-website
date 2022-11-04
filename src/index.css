@@ -106,8 +106,6 @@ a {
   align-items: center;
   padding: 24px;
   background-color: white;
-
-
 }
 
 .nav-container .brand {
@@ -145,8 +143,6 @@ a {
   width: 60%;
   padding-top: 60px;
   margin: 0 auto;
-
-
 
 }
 
@@ -200,25 +196,6 @@ a {
   cursor: pointer;
 }
 
-/* .bg-hero-button {
-  background-image: none;
-  letter-spacing: 1px;
-  text-shadow: 0 0 0 rgb(0 0 0 / 0%);
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-style: none;
-  margin: 39px auto 0 0;
-  padding: 14px 73px 15px 71px;
-  color: black;
-  border-radius: 8px;
-  width: 100%;
-
-  background-color: #4056a1;
-  color: white;
-
-  display: block;
-} */
 
 .my-image {
   height: 60vh;
@@ -300,10 +277,11 @@ a {
 }
 
 .project {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: fit-content;
-  height: fit-content;
+  height: 100%;
   padding: 12px;
   border-radius: 8px;
 
@@ -311,7 +289,6 @@ a {
 
 
 }
-
 
 
 .main-image img {
@@ -327,6 +304,16 @@ a {
   border-radius: 8px;
   padding-bottom: 10px;
 
+
+}
+
+.project-desc {
+  height: 100%;
+}
+
+.project-info.webinc-desc {
+  height: 70%;
+  
 }
 
 .languages {
@@ -369,6 +356,7 @@ a {
   cursor: pointer;
 }
 
+
 .footer-container {
   background-color: #687668;
 
@@ -385,6 +373,7 @@ a {
   font-weight: 700;
   border-bottom: 2px solid white;
   margin-top: 1rem;
+  padding-bottom: 10px;
 }
 
 
@@ -552,5 +541,18 @@ a {
 
   .about-info h1 {
     font-size: 2rem;
+  }
+
+  .hero-button button {
+    padding: 1rem 2rem;
+  }
+
+  .desc-button button {
+    padding: 1rem 2rem;
+  }
+
+  .footer-container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

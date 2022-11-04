@@ -1,5 +1,4 @@
 
-
 import Aboutme from './components/Aboutme'
 import Footer from './components/Footer';
 import Hero from './components/Hero'
@@ -8,7 +7,6 @@ import Projects from './components/Projects'
 
 function App() {
   return (
-
     <>
       <Navbar />
       <Hero />

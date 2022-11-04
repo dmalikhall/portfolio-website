@@ -23,52 +23,41 @@ const Projects = () => {
                             </div>
                             <div className="project-desc">
                                 <h3>Paradise Clothing Project</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur mollitia, rerum cum obcaecati deleniti ipsa cupiditate nesciunt saepe commodi, dolores excepturi voluptatem cumque. Ut officia nobis qui provident repellat.</p>
-                                <div className="desc-button">
-                                    
-                                        <a href='https://paradiseclothing.netlify.app' target='_blank' rel="noreferrer">
-                                            <button>See Website</button>
-                                        </a>
-                                    
-                                </div>
-                            </div>
+                                <p>The Paradise Clothing Project was built to utilize a cart component that allows users to add, remove, or modify the cart. The cart also calculates the total of each product depending on how many items they want and the price of each item.</p>
 
+                            </div>
+                        </div>
+
+                        <div className="desc-button">
+                            <a href='https://paradiseclothing.netlify.app' target='_blank' rel="noreferrer">
+                                <button>See Website</button>
+                            </a>
                         </div>
                     </div>
 
-                    <div  className="project">
+                    <div className="project">
                         <div className="main-image">
                             <img src={homeBlog} alt="website" />
                         </div>
-                        <div className="project-info">
+                        <div className="project-info webinc-desc">
                             <div className="languages">
                                 <FaReact />
                             </div>
-                            <div className="project-desc">
+                            <div className="project-desc ">
                                 <h3>Webb INC Project</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur mollitia, rerum cum obcaecati deleniti ipsa cupiditate nesciunt saepe commodi, dolores excepturi voluptatem cumque. Ut officia nobis qui provident repellat.</p>
-                                <div className="desc-button">
-                                    <a href='https://webbinc.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
-                                        <button >See Website</button>
-                                    </a>
-                                </div>
-                            </div>
+                                <p>I built Webb Inc using React js, an external API, useReducer, Context, and React Router to create a single template that takes in different props depending on which article the user clicks on.</p>
 
+                            </div>
                         </div>
 
+                        <div className="desc-button">
+                            <a href='https://webbinc.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
+                                <button >See Website</button>
+                            </a>
+                        </div>
                     </div>
-
-
-
                 </div>
-
-
             </section>
-
-
-
-
-
         </main>
     )
 }
