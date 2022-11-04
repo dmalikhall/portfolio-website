@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
@@ -10,7 +11,12 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tempore!</p>
 
                 <div className="hero-button">
-                    <button>See Projects</button>
+                    <Link to="projects" spy={true} smooth={true} offset={-80} duration={500}>
+                        <button>See Projects</button>
+
+                    </Link>
+
+                    {/* add link */}
 
                 </div>
             </section>

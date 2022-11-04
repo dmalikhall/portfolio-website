@@ -196,6 +196,8 @@ a {
 
   background-color: #687668;
   color: white;
+
+  cursor: pointer;
 }
 
 /* .bg-hero-button {
