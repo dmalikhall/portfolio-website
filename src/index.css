@@ -21,6 +21,10 @@ a {
   color: inherit;
 }
 
+.bars-button {
+  color: black
+}
+
 .mobile-nav {
   position: fixed;
   z-index: 2;

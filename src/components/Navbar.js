@@ -43,7 +43,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="open_nav-button" onClick={openMobileNav}>
-                        <button><FaBars /></button>
+                        <button className='bars-button'><FaBars /></button>
                     </div>
                 </div>
             </div>
