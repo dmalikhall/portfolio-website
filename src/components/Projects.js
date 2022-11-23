@@ -1,7 +1,8 @@
 import React from 'react';
 import clothingMain from '../clothing-main-img.png';
-import homeBlog from '../blog-home-image.png'
-import { FaReact } from 'react-icons/fa'
+import homeBlog from '../blog-home-image.png';
+import { FaReact } from 'react-icons/fa';
+import nbaImg from '../my-nba-app-img.png'
 
 const Projects = () => {
     return (
@@ -52,6 +53,28 @@ const Projects = () => {
 
                         <div className="desc-button">
                             <a href='https://webbinc.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
+                                <button >See Website</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <div className="main-image">
+                            <img src={nbaImg} alt="website" />
+                        </div>
+                        <div className="project-info webinc-desc">
+                            <div className="languages">
+                                <FaReact />
+                            </div>
+                            <div className="project-desc ">
+                                <h3>NBA For Me Project</h3>
+                                <p>The NBA For Me Project was created using React, Material UI, and a public api from RapidApi. This app allows users to see the most recent NBA games and live scores.</p>
+
+                            </div>
+                        </div>
+
+                        <div className="desc-button">
+                            <a href='https://nba-for-me.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
                                 <button >See Website</button>
                             </a>
                         </div>
