@@ -31,7 +31,7 @@ const Projects = () => {
                         </div>
 
                         <div className="desc-button">
-                            <a href='https://nba-for-me.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
+                            <a href='https://smoothservicessolutions.com/' target='_blank' rel="noreferrer" className='desc-button-btn'>
                                 <button >See Website</button>
                             </a>
                         </div>
