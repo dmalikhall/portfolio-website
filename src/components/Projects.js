@@ -2,7 +2,9 @@ import React from 'react';
 import clothingMain from '../clothing-main-img.png';
 import homeBlog from '../blog-home-image.png';
 import { FaReact } from 'react-icons/fa';
-import nbaImg from '../my-nba-app-img.png'
+import {BsWordpress} from 'react-icons/bs'
+// import nbaImg from '../my-nba-app-img.png';
+import smoothServices from '../sss-img.png';
 
 const Projects = () => {
     return (
@@ -13,6 +15,27 @@ const Projects = () => {
                 </div>
 
                 <div className="first-container">
+                    <div className="project">
+                        <div className="main-image">
+                            <img src={smoothServices} alt="website" />
+                        </div>
+                        <div className="project-info webinc-desc">
+                            <div className="languages">
+                                <BsWordpress />
+                            </div>
+                            <div className="project-desc ">
+                                <h3>Smooth Services Solutions</h3>
+                                <p>This website was created for a client called Smooth Services Solutions, a business located in Nashville, TN. I was able to design and create this using Wordpress content management system.</p>
+
+                            </div>
+                        </div>
+
+                        <div className="desc-button">
+                            <a href='https://nba-for-me.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
+                                <button >See Website</button>
+                            </a>
+                        </div>
+                    </div>
                     <div className="project">
                         <div className="main-image">
                             <img src={clothingMain} alt="website" />
@@ -58,27 +81,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="project">
-                        <div className="main-image">
-                            <img src={nbaImg} alt="website" />
-                        </div>
-                        <div className="project-info webinc-desc">
-                            <div className="languages">
-                                <FaReact />
-                            </div>
-                            <div className="project-desc ">
-                                <h3>NBA For Me Project</h3>
-                                <p>The NBA For Me Project was created using React, Material UI, and a public api from RapidApi. This app allows users to see the most recent NBA games and live scores.</p>
 
-                            </div>
-                        </div>
-
-                        <div className="desc-button">
-                            <a href='https://nba-for-me.netlify.app/' target='_blank' rel="noreferrer" className='desc-button-btn'>
-                                <button >See Website</button>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>
